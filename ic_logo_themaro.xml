@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Logo TheMaro: zapatilla estilizada con la letra M -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="160dp"
+    android:height="160dp"
+    android:viewportWidth="160"
+    android:viewportHeight="160">
+
+    <!-- Fondo circular -->
+    <path
+        android:fillColor="#C9A84C"
+        android:pathData="M80,10 A70,70 0 1,1 79.9,10 Z"/>
+
+    <!-- Letra M estilizada en blanco -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M35,110 L35,55 L55,55 L80,85 L105,55 L125,55 L125,110 L110,110 L110,78 L85,108 L75,108 L50,78 L50,110 Z"/>
+
+</vector>

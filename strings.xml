@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TheMaro</string>
+    <string name="offline_title">Sin conexión a internet</string>
+    <string name="offline_message">Verifica tu conexión a WiFi o datos móviles para explorar TheMaro.</string>
+    <string name="btn_retry">Reintentar</string>
+    <string name="tagline">Wear Your Story</string>
+</resources>

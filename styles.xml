@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Tema principal de la app -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/themaro_primary</item>
+        <item name="colorPrimaryDark">@color/themaro_black</item>
+        <item name="colorAccent">@color/themaro_primary</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:statusBarColor">@color/themaro_black</item>
+        <item name="android:navigationBarColor">@color/themaro_black</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <!-- Tema del Splash (pantalla de inicio) -->
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@color/themaro_black</item>
+        <item name="android:statusBarColor">@color/themaro_black</item>
+        <item name="android:navigationBarColor">@color/themaro_black</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowFullscreen">false</item>
+    </style>
+
+</resources>
