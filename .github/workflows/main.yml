@@ -19,20 +19,13 @@ jobs:
           java-version: '17'
           distribution: 'temurin'
 
-      - name: Instalar Android SDK
-        run: |
-          sudo apt-get install -y cmdline-tools
-          yes | sdkmanager --licenses || true
-          sdkmanager "platform-tools" "platforms;android-34" "build-tools;34.0.0"
-        env:
-          ANDROID_SDK_ROOT: /usr/local/lib/android/sdk
-
       - name: Compilar APK
         run: |
           cd TheMaro
           chmod +x gradlew
           ./gradlew assembleDebug --no-daemon --stacktrace
         env:
+          ANDROID_HOME: /usr/local/lib/android/sdk
           ANDROID_SDK_ROOT: /usr/local/lib/android/sdk
 
       - uses: actions/upload-artifact@v4
